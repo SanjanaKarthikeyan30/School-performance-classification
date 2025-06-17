@@ -1,1 +1,6 @@
 # School-performance-classification
+Building a machine learning model to categorize schools as high- or low-performing based on academic markers including graduation rates, English Language Arts (ELA) scores, and math scores is the main goal of this research.  We carried out comprehensive data preprocessing, including handling null values, encoding categorical variables, and normalizing percentage-based fields, using a real-world dataset from American schools.
+
+K-fold cross-validation and holdout testing were used in the development and evaluation of two classification models: the Random Forest Classifier and the Gradient Boosting Classifier.  Despite achieving 89% cross-validation accuracy, the Gradient Boosting model demonstrated less generalization on unknown data.  The Random Forest model, on the other hand, demonstrated a strong 88.24% test accuracy and a better balance between precision and recall, making it a more viable option for practical implementation.
+
+The model forecasts academic achievement and provides stakeholders in education with useful insights.  Predicted performance labels were included in the final outputs, which were saved in Excel for accessibility.  This project showcases important abilities in Python-based education data analysis, feature engineering, model validation, and machine learning.
